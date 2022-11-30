@@ -19,7 +19,7 @@ def start(update: Update, context: CallbackContext) -> None:
         manage_user(update, context)
         parking = context.bot_data['parking']
         markup = make_keyboard(context, str(update.effective_user.id))
-        welcome = (r'Вас приветствует *Парковочный бот Logrocon*\!' +
+        welcome = (r'Вас приветствует *Парковочный бот Promodo Park Assit*\!' +
                    '\nВыберете место кнопками ниже')
         update.effective_message.reply_text(welcome, parse_mode='MarkdownV2')
         update.effective_message.reply_text(
