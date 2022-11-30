@@ -2,7 +2,7 @@
     "data_file": "data.pickle",
     "logging": {
         "log_file": "log.txt",
-        "log_length": "10"
+        "log_length": "20"
     },
     "owner_id": 410627758,
     "places": [
